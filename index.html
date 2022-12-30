@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+
+    <!-- IconScout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Material Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+      <!-- AOS css File CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css stylesheet file link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Little Lemon Restaurant</title>
+</head>
+<body>
+
+   <!------------ header section starts ------------>
+
+   <header>
+        <a href="" class="logo">
+            <!-- <img src="./assets/logo-img.png"> -->
+            <h2>𝔏𝔦𝔱𝔱𝔩𝔢 <span class="yellow">𝔏𝔢𝔪𝔬𝔫</span> ℜ𝔢𝔰𝔱𝔞𝔲𝔯𝔞𝔫𝔱</h2>
+        </a>
+
+        <button id="open"><span class="material-icons-sharp">restaurant</span></button>
+        <button id="close"><span class="material-icons-sharp">restaurant_menu</span></button>
+
+        <!-- NavBar starts -->
+        <nav class="navbar scale-up-ver-top">
+            <ul>
+                <!-- Navigation Menus -->
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+        <!-- NavBar ends -->
+
+        <div class="theme-toggle">
+            <span><i class="uil uil-toggle-off" id="off"></i></span>
+            <span><i class="uil uil-toggle-on" id="on"></i></span>
+        </div>
+
+    </header>
+    <!---------- header section ends ------------>
+
+
+
+
+
+    <!------------ home section starts ------------>
+    <section class="home" id="home">
+
+        <div class="content" data-aos="fade-right">
+            <h3>We make delicious dishes</h3>
+            <h4>30% discount Order today</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Qui cupiditate assumenda iusto optio! Fugit, vel. Lorem ipsum dolor sit amet.
+            </p>
+            <a href="#"><button class="btn">Order now</button></a>
+        </div>
+
+        <div class="image" data-aos="fade-up">
+            <img src="./assets/pizza5.png" alt="">
+        </div>
+    </section>
+    <!------------ home section ends ------------>
+
+
+
+
+
+    <!------------ about section starts ------------>
+    <section class="about" id="about">
+
+        <div class="image" data-aos="fade-right"></div>
+
+        <div class="content"  data-aos="fade-left">
+            <h3><span class="yellow">About</span> Us</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Culpa doloremque vero recusandae ullam? Explicabo, minima. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, ullam?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repudiandae!
+            </p>
+            <a href="#"><button class="btn">Know more</button></a>
+        </div>
+    </section>
+    <!------------ about section ends ------------>
+
+
+
+
+
+    <!------------ menu section starts ------------>
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span class="yellow">Menu</span></h1>
+        <h4>Dishes we serve</h4>
+        <ul class="list"  data-aos="fade-down">
+            <li class="btn active" data-src="./assets/menu1.jpg">Breakfast</li>
+            <li class="btn" data-src="./assets/menu3.jpg">Lunch</li>
+            <li class="btn" data-src="./assets/fried-chicken.png">Snacks</li>
+            <li class="btn" data-src="./assets/chinese.png">Dinner</li>
+            <li class="btn" data-src="./assets/menu4.jpg">Desserts</li>
+            <li class="btn" data-src="./assets/drinks1.jpg">Drinks</li>
+        </ul>
+
+        <div class="row"  data-aos="fade-right">
+
+            <div class="image"  data-aos="fade-left">
+                <img src="./assets/menu2.jpg" id="menu-img" alt="">
+            </div>
+
+            <div class="content">
+                <!-- info 1 -->
+                <div class="info">
+                    <h3><span class="material-icons-sharp">verified</span> We serve the best quality food in the country</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, explicabo!</p>
+                </div>
+
+                <!-- info 2 -->
+                <div class="info">
+                    <h3><span class="material-icons-sharp">verified</span> We serve the best quality food in the country</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, explicabo!</p>
+                </div>
+
+                <!-- info 3 -->
+                <div class="info">
+                    <h3><span class="material-icons-sharp">verified</span> We serve the best quality food in the country</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, explicabo!</p>
+                </div>
+
+                <!-- info 4 -->
+                <div class="info">
+                    <h3><span class="material-icons-sharp">verified</span> We serve the best quality food in the country</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, explicabo!</p>
+                </div>
+
+                <!-- info 5 -->
+                <div class="info">
+                    <h3><span class="material-icons-sharp">verified</span> We serve the best quality food in the country</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, explicabo!</p>
+                </div>
+
+                <!-- info 6 -->
+                <div class="info">
+                    <h3><span class="material-icons-sharp">verified</span>We serve the best quality food in the country</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, explicabo!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------ menu section ends ------------>
+
+
+
+
+
+    <!------------ popular section starts ------------>
+    <section class="popular" id="popular">
+        <h1 class="heading">Our <span class="yellow">Popular</span> Dishes</h1>
+
+        <div class="box-container">
+
+              <!-- box 1 -->
+            <div class="box"  data-aos="zoom-in-up">
+                <div class="box-img">
+                    <img src="./assets/product-5.jpg" alt="" height="417" width="626">
+                </div>
+                <h3>Veg Biriyani</h3>
+                <div class="stars">
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_half</span>
+                    <span class="material-icons-sharp">star_border_purple500</span>
+                </div>
+                <div class="price"><i class="uil uil-rupee-sign"></i>120/- only</div>
+                <a href="#"><button class="btn">add to cart <i class="uil uil-shopping-cart"></i></button></a>
+            </div>
+
+              <!-- box 2 -->
+            <div class="box"  data-aos="zoom-in-up">
+                <div class="box-img">
+                    <img src="./assets/product-6.jpg" alt="" height="417" width="626">
+                </div>
+                <h3>Pav Bhaji</h3>
+                <div class="stars">
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_half</span>
+                </div>
+                <div class="price"><i class="uil uil-rupee-sign"></i>85/- only</div>
+                <a href="#"><button class="btn">add to cart <i class="uil uil-shopping-cart"></i></button></a>
+            </div>
+
+            <!-- box 3 -->
+            <div class="box"  data-aos="zoom-in-up">
+                <div class="box-img">
+                    <img src="./assets/product-7.jpg" alt="" height="417" width="626">
+                </div>
+                <h3>Chicken Skewers with White Sauce</h3>
+                <div class="stars">
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                </div>
+                <div class="price"><i class="uil uil-rupee-sign"></i>350/- only</div>
+                <a href="#"><button class="btn">add to cart <i class="uil uil-shopping-cart"></i></button></a>
+            </div>
+
+              <!-- box 4 -->
+            <div class="box"  data-aos="zoom-in-up">
+                <div class="box-img">
+                    <img src="./assets/product-4.jpg" alt="">
+                </div>
+                <h3>Mixed Chowmin</h3>
+                <div class="stars">
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_border_purple500</span>
+                </div>
+                <div class="price"><i class="uil uil-rupee-sign"></i>140/- only</div>
+                <a href="#"><button class="btn">add to cart <i class="uil uil-shopping-cart"></i></button></a>
+            </div>
+
+              <!-- box 5 -->
+            <div class="box"  data-aos="zoom-in-up">
+                <div class="box-img">
+                    <img src="./assets/product-8.jpg" alt="" height="417" width="626">
+                </div>
+                <h3>Burger with French fry</h3>
+                <div class="stars">
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_half</span>
+                    <span class="material-icons-sharp">star_border_purple500</span>
+                    <span class="material-icons-sharp">star_border_purple500</span>
+                </div>
+                <div class="price"><i class="uil uil-rupee-sign"></i>99/- only</div>
+                <a href="#"><button class="btn">add to cart <i class="uil uil-shopping-cart"></i></button></a>
+            </div>
+
+              <!-- box 6 -->
+            <div class="box"  data-aos="zoom-in-up">
+                <div class="box-img">
+                    <img src="./assets/biriyani1.jpg" alt="" height="417" width="626">
+                </div>
+                <h3>Chicken Biriyani</h3>
+                <div class="stars">
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_rate</span>
+                    <span class="material-icons-sharp">star_half</span>
+                </div>
+                <div class="price"><i class="uil uil-rupee-sign"></i>199/- only</div>
+                <a href="#"><button class="btn">add to cart <i class="uil uil-shopping-cart"></i></button></a>
+            </div>
+        </div>
+    </section>
+    <!------------ popular section ends ------------>
+
+
+
+
+    <!------------ gallery section starts ------------>
+    <section class="gallery" id="gallery">
+        <h1 class="heading">Our Dishes <span class="yellow">Gallery</span></h1>
+        <div class="box-container">
+
+            <!-- box 1 -->
+            <div class="box" data-aos="zoom-in">
+                <img src="./assets/product-1.jpg" alt="">
+                <h3>Delicious dishes</h3>
+            </div>
+
+            <!-- box 2 -->
+            <div class="box" data-aos="zoom-in"">
+                <img src="./assets/pizza1.png" alt="">
+                <h3>Delicious dishes</h3>
+            </div>
+
+            <!-- box 3 -->
+            <div class="box" data-aos="zoom-in"">
+                <img src="./assets/pasta.jpg" alt="">
+                <h3>Delicious dishes</h3>
+            </div>
+
+            <!-- box 4 -->
+            <div class="box" data-aos="zoom-in"">
+                <img src="./assets/img3.jpg" alt="">
+                <h3>Delicious dishes</h3>
+            </div>
+
+            <!-- box 5 -->
+            <div class="box" data-aos="zoom-in"">
+                <img src="./assets/soup.jpg" alt="">
+                <h3>Delicious dishes</h3>
+            </div>
+
+            <!-- box 6 -->
+            <div class="box" data-aos="zoom-in"">
+                <img src="./assets/img2.jpg" alt="">
+                <h3>Delicious dishes</h3>
+            </div>
+
+            <!-- box 7 -->
+            <div class="box"data-aos="zoom-in"">
+                <img src="./assets/img6.jpg" alt="">
+                <h3>Delicious dishes</h3>
+            </div>
+        </div>
+    </section>
+    <!------------ gallery section ends ------------>
+
+
+
+
+    <!------------ order section starts ------------>
+    <section class="order" id="order">
+        <div class="heading">
+            <span>𝐎rder</span> ℕow <i class="uil uil-truck"></i>
+        </div>
+
+        <div class="row">
+
+            <form action="" data-aos="fade-right">
+                <input type="text" placeholder="Your name" class="box">
+                <input type="email" placeholder="Your email" class="box">
+                <input type="password" placeholder="Your password" class="box">
+                <input type="number" placeholder="Your ph number" class="box">
+                <textarea name="" id="" col="30" rows="10" class="box address" placeholder="your address"></textarea>
+                <input type="submit" value="place order" class="btn">
+            </form>
+
+            <div class="image" data-aos="fade-left">
+                <img src="./assets/product-1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!------------ order section ends ------------>
+
+
+
+
+    <!------------ footer section starts ------------>
+    <footer class="footer" id="footer">
+
+        <div class="box-container">
+
+            <!-- section 1 -->
+            <div class="box">
+                <!-- <h3>Contact details</h3> -->
+                <img src="./assets/logo2.png" height="80px" width="50px">
+                <!-- <p><i class="uil uil-map-marker"></i> Barcelona, Spain</p> -->
+            </div>
+
+            <!-- section 2 -->
+            <div class="box">
+                <h3>Contact details</h3>
+                <p><i class="uil uil-facebook"></i> facebook</p>
+                <p><i class="uil uil-envelope-check"></i> theconquer10@gmail.com</p>
+                <p><i class="uil uil-phone"></i>+123-456-7890</p>
+            </div>
+
+            <!-- section 3 -->
+            <div class="box">
+                <h3>Helpful links</h3>
+                 <a href="#"><i class="uil uil-angle-right-b" id="arrow"></i>Home</a>
+                <a href="#about"><i class="uil uil-angle-right-b" id="arrow"></i>About</a>
+                <a href="#menu"><i class="uil uil-angle-right-b" id="arrow"></i>Menu</a>
+                <a href="#popular"><i class="uil uil-angle-right-b" id="arrow"></i>Popular</a>
+                <a href="#gallery"><i class="uil uil-angle-right-b" id="arrow"></i>Gallery</a>
+                <!-- <a href="#Order"><i class="uil uil-angle-right-b"></i>Order</a> -->
+            </div>
+
+            <!-- section 4 -->
+            <div class="box">
+                <h3>Address</h3>
+                <p><i class="uil uil-angle-right-b" id="arrow"></i>Barcelona Spain</p>
+                <p><i class="uil uil-angle-right-b" id="arrow"></i>Near Camp-nou</p>
+            </div>
+
+        </div>
+        <h4 class="copyright">&copy; 2022<span class="red"> Rahul Goswami.</span> All rights reserved</h4>
+    </footer>
+    <!------------ footer section ends ------------>
+
+
+
+    <!--jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JS file cdn link -->
+    <script src="./index.js"></script>
+
+    <!-- AOS file cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- AOS initialization -->
+    <script>
+
+        AOS.init();
+
+        AOS.init({
+            offset: 20,
+            delay: 0,
+            duration: 800,
+            easing: 'ease-in',
+            once: false,
+            mirror: false,
+            anchorPlacement: 'top-bottom',
+        });
+    </script>
+
+</body>
+</html>
